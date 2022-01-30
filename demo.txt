@@ -1,0 +1,5 @@
+hello world
+
+Q2xvc2UgUmF5Y2FzdCBtYWluIHdpbmRvdw==
+
+Close Raycast main window

@@ -1,0 +1,62 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "useful-tools",
+  "title": "Useful Tools",
+  "description": "String tools use to simplify string manipulation.",
+  "icon": "command-icon.png",
+  "author": "MatteoGauthier",
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "slugify",
+      "title": "Slugify",
+      "subtitle": "convert-a-string-into-a-slug",
+      "description": "The command take a string as argument and convert it into a slug string",
+      "mode": "view"
+    },
+    {
+      "name": "lowercase",
+      "title": "Lowercase",
+      "subtitle": "Convert a string to lowercase",
+      "description": "The command take a string as argument and convert it into lowercase",
+      "mode": "view"
+    },
+    {
+      "name": "uppercase",
+      "title": "Uppercase",
+      "subtitle": "Convert a string to uppercase",
+      "description": "The command take a string as argument and convert it into uppercase",
+      "mode": "view"
+    },
+    {
+      "name": "qrcode-generator",
+      "title": "QR Code Generator",
+      "subtitle": "Generate a QR Code",
+      "description": "The command take a string as argument and generate a QR Code",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.27.1",
+    "sharp": "^0.29.3",
+    "symbology": "^3.0.8"
+  },
+  "devDependencies": {
+    "@types/node": "~16.10.0",
+    "@types/react": "^17.0.28",
+    "@types/sharp": "^0.29.5",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.5.1",
+    "react-devtools": "^4.19.2",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint"
+  }
+}
