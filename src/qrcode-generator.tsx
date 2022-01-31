@@ -3,7 +3,7 @@ import fs from "fs";
 import os from "os";
 import path from "path";
 import sharp from "sharp";
-import { createStream, OutputType, SymbologyType } from "symbology";
+// import { createStream, OutputType, SymbologyType } from "symbology";
 
 interface FormInput {
   input: string;
